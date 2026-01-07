@@ -15,9 +15,12 @@ export function ActivityTabs() {
   useEffect(() => {
     async function load() {
       try {
-        const res = await fetch("/api/latest");
+        const res = await fetch(
+          "https://raw.githubusercontent.com/hoopydoopy/n8n-ezracise/main/web/latest.json",
+          { cache: "no-store" },
+        );
         const json = await res.json();
-        setActivities(json.data?.activities ?? []);
+        setActivities(json.activities ?? []);
       } catch (error) {
         console.error("Failed to load activities:", error);
       } finally {
