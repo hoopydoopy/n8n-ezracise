@@ -198,37 +198,37 @@ export function History({ activities }: { activities: Activity[] }) {
         );
       })}
 
-      <style jsx>{`
-        .history-scroll::-webkit-scrollbar {
-          width: 6px;
-        }
-
-        .history-scroll::-webkit-scrollbar-track {
-          background: transparent;
-        }
-
-        .history-scroll::-webkit-scrollbar-thumb {
-          background: linear-gradient(
-            180deg,
-            rgba(168, 85, 247, 0.4),
-            rgba(34, 211, 238, 0.4)
-          );
-          border-radius: 10px;
-        }
-
-        .history-scroll::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(
-            180deg,
-            rgba(168, 85, 247, 0.6),
-            rgba(34, 211, 238, 0.6)
-          );
-        }
-
-        .history-scroll {
-          scrollbar-width: thin;
-          scrollbar-color: rgba(168, 85, 247, 0.4) transparent;
-        }
-      `}</style>
+      {/* <style jsx>{` */}
+      {/*   .history-scroll::-webkit-scrollbar { */}
+      {/*     width: 6px; */}
+      {/*   } */}
+      {/**/}
+      {/*   .history-scroll::-webkit-scrollbar-track { */}
+      {/*     background: transparent; */}
+      {/*   } */}
+      {/**/}
+      {/*   .history-scroll::-webkit-scrollbar-thumb { */}
+      {/*     background: linear-gradient( */}
+      {/*       180deg, */}
+      {/*       rgba(168, 85, 247, 0.4), */}
+      {/*       rgba(34, 211, 238, 0.4) */}
+      {/*     ); */}
+      {/*     border-radius: 10px; */}
+      {/*   } */}
+      {/**/}
+      {/*   .history-scroll::-webkit-scrollbar-thumb:hover { */}
+      {/*     background: linear-gradient( */}
+      {/*       180deg, */}
+      {/*       rgba(168, 85, 247, 0.6), */}
+      {/*       rgba(34, 211, 238, 0.6) */}
+      {/*     ); */}
+      {/*   } */}
+      {/**/}
+      {/*   .history-scroll { */}
+      {/*     scrollbar-width: thin; */}
+      {/*     scrollbar-color: rgba(168, 85, 247, 0.4) transparent; */}
+      {/*   } */}
+      {/* `}</style> */}
     </div>
   );
 }

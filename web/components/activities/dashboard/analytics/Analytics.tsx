@@ -483,37 +483,37 @@ export function Analytics({ type, activities }: Props) {
         </div>
       </div>
 
-      <style jsx>{`
-        .analytics-scroll::-webkit-scrollbar {
-          width: 6px;
-        }
-
-        .analytics-scroll::-webkit-scrollbar-track {
-          background: transparent;
-        }
-
-        .analytics-scroll::-webkit-scrollbar-thumb {
-          background: linear-gradient(
-            180deg,
-            rgba(168, 85, 247, 0.4),
-            rgba(236, 72, 153, 0.4)
-          );
-          border-radius: 10px;
-        }
-
-        .analytics-scroll::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(
-            180deg,
-            rgba(168, 85, 247, 0.6),
-            rgba(236, 72, 153, 0.6)
-          );
-        }
-
-        .analytics-scroll {
-          scrollbar-width: thin;
-          scrollbar-color: rgba(168, 85, 247, 0.4) transparent;
-        }
-      `}</style>
+      {/* <style jsx>{` */}
+      {/*   .analytics-scroll::-webkit-scrollbar { */}
+      {/*     width: 6px; */}
+      {/*   } */}
+      {/**/}
+      {/*   .analytics-scroll::-webkit-scrollbar-track { */}
+      {/*     background: transparent; */}
+      {/*   } */}
+      {/**/}
+      {/*   .analytics-scroll::-webkit-scrollbar-thumb { */}
+      {/*     background: linear-gradient( */}
+      {/*       180deg, */}
+      {/*       rgba(168, 85, 247, 0.4), */}
+      {/*       rgba(236, 72, 153, 0.4) */}
+      {/*     ); */}
+      {/*     border-radius: 10px; */}
+      {/*   } */}
+      {/**/}
+      {/*   .analytics-scroll::-webkit-scrollbar-thumb:hover { */}
+      {/*     background: linear-gradient( */}
+      {/*       180deg, */}
+      {/*       rgba(168, 85, 247, 0.6), */}
+      {/*       rgba(236, 72, 153, 0.6) */}
+      {/*     ); */}
+      {/*   } */}
+      {/**/}
+      {/*   .analytics-scroll { */}
+      {/*     scrollbar-width: thin; */}
+      {/*     scrollbar-color: rgba(168, 85, 247, 0.4) transparent; */}
+      {/*   } */}
+      {/* `}</style> */}
     </div>
   );
 }
